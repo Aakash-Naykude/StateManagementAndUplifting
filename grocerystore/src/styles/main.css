@@ -1,0 +1,6 @@
+.showList{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 0.2%;
+    margin-top: 10px;
+}

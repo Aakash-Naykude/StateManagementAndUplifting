@@ -1,0 +1,13 @@
+.groceryList{
+    width: 95%;
+    height: 200px;
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: auto;
+    margin-top: 20px;
+}
+.groceryList > button{
+    width: 50%;
+    height: 50px;
+    margin: auto;
+}
