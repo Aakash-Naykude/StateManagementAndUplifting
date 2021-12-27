@@ -7,7 +7,7 @@ export const GroceryInput = ({getData})=>{
         // console.log(e.target.value)
     }
     const handleInput = ()=>{
-        getData(text)
+        getData(text, "https://images-prod.healthline.com/hlcmsresource/images/AN_images/healthy-eating-ingredients-1296x728-header.jpg")
     }
     return <>
         <input type="text" placeholder="Enter Grocery Product" onChange={handleOninput} />

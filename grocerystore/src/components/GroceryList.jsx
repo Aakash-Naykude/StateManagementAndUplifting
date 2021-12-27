@@ -6,10 +6,12 @@ export const GroceryList = ({
   id,
   handleDelete,
   handleToggle,
+  image
 }) => {
-  console.log(inplist);
+  console.log(image);
   return (
     <div className="groceryList">
+        <img src={image}/>
       <h3>{title}</h3>
       <button onClick={() => handleToggle(id)}>
         {status ? "purchased" : "Not purchased yet"}

@@ -6,11 +6,12 @@ import "../styles/main.css";
 export const Grocery = () => {
   const [list, setList] = useState([]);
   const [showAll, setshowAll] = useState(true);
-  const handleChange = (data) => {
-    console.log(data);
+  const handleChange = (data, img) => {
+    console.log(img);
     const payload = {
       title: data,
       status: false,
+      image:img,
       id: nanoid(7),
     };
     setList([...list, payload]);
