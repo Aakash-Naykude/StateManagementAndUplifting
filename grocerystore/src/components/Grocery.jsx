@@ -55,6 +55,7 @@ export const Grocery = () => {
     } catch (e) {
       console.log(e);
     }
+    getTodo()
   };
   const handleDelete = (id) => {
     setList(list.filter((list) => list.id !== id));
